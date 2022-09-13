@@ -1,0 +1,140 @@
+.landlord-details-area{
+    padding-bottom: 90px;
+    background: #fff;
+}
+.landlord-details-wraper{
+    display: flex;
+}
+.landlord-details-left-area{
+    margin-right: 30px;
+    width: 910px;
+    max-width: 100%;
+    display: block;
+} 
+.landlord-details-fast-item{
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.2);
+    box-shadow: 0px 3px 8px -1px rgba(71, 50, 50, 0.05); 
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+.landlord-details-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.landlord-details-id-title{
+    display: flex;
+    align-items: center; 
+    img{
+       display: block;
+       border-radius: 10px;
+       width: 260px;
+       height: 269px; 
+    }
+}
+.landlord-man-id{
+    margin-left: 20px;
+    .shaidul{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .properties{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;   
+    }
+}
+.landlord-id-contact{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5714285; 
+    color: #7E7E7E;
+    margin-bottom: 16px;
+    display: block;
+    svg{
+        padding-right: 8px;
+        height: 20px;
+        width: 20px;
+    }
+}
+.landlord-id-contact:last-child{
+    margin-bottom: 0;
+}
+.landlord-details-ul{
+    li{
+        padding: 6px 0;
+        a{
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 50%;
+            display: block;
+            text-align: center;
+            color: #1877F2;
+            font-size: 16px;
+            background: rgba(24, 119, 242, 0.1);
+            &:hover{
+                color: #fff;
+                background: #03A9F4; 
+            }
+        } 
+        .active{
+            color: #fff;
+            background: #03A9F4; 
+        }
+        .landlord-yt-icon{
+            color:  #FF0000; 
+            background: rgba(255, 0, 0, 0.1);
+            &:hover{
+                color:  #FF0000; 
+                background: rgba(255, 0, 0, 0.1);   
+            }
+        }
+    }
+}
+// landlord-details
+.landlord-about-details{
+    margin-top: 24px;
+    .landlord-about-head{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;  
+        margin-bottom: 8px;
+    }
+    .landlord-about-paragraph{
+        margin-bottom: 20px;
+    }
+    .landlord-about-paragraph:last-child{
+        margin-bottom: 0;
+        max-width: 98%;
+    }
+}
+.landlord-details-swiper{
+    margin-bottom: 0 !important;
+}
+// landlord-details-right-area
+.landlord-details-right-area{
+    max-width: 100%; 
+} 
+.landlord-details-right-head{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;   
+    margin-bottom: 16px;
+}
+.landlord-contact-info{
+    background: #FFFFFF;
+    border: 1px solid rgba(126, 126, 126, 0.2);
+    box-shadow: 0px 3px 8px -1px rgba(71, 50, 50, 0.05);
+    border-radius: 6px;
+    padding: 30px;  
+    margin-top: 30px;
+    .l_c_info{
+        margin-left: 0 !important;
+    }
+}

@@ -1,0 +1,47 @@
+/*Prefix Styles*/ 
+body{
+    font-family: 'Lato';  
+    background: #fff;
+    ul{ 
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    } 
+	/*Section Fix*/
+	section, header, footer{
+		&.row{
+			margin: 0; 
+		}
+	} 
+    #success{
+        display: none;
+    }
+    #error{
+        display: none;
+    }  
+    iframe{
+        border: none;
+    }
+    i{
+        &:before{
+            margin-left: 0px !important; 
+        }
+    }
+    /*Ancore*/
+    a,.btn,button{
+        outline: none;
+        @include transition;
+        text-decoration: none;
+        &:before,&:after{
+            @include transition;
+        }
+        &:focus,&:hover{  
+            outline: none;
+            text-decoration: none;
+            @include transition;
+        }
+    }
+}   

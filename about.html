@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Theme tittle -->
+    <title>The Land</title>
+    <!-- <link rel="shortcut icon" href="img/" type="image/x-icon">  -->
+    <!-- Theme style CSS -->      
+    <link rel="stylesheet" href="css/style.css.map">    
+    <link rel="stylesheet" href="vendors/aos-animation/aos.css">  
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">        
+    <!-- <link rel="stylesheet" href="css/nice-select.css">         -->
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>   
+    <!-- header area strat -->
+    <header class="fast-header-area">
+        <div class="top-header">
+            <div class="header-container">
+                <div class="top-social-header">
+                    <p class="open-time"><i class="fas fa-clock"></i> <span>Open Hours:</span>  Mon - Sat - 9:00 - 18:00</p>
+                    <div class="lang-social"> 
+                        <select class="languse-select">
+                            <option data-display="English">English</option>
+                            <option value="1">Spanish</option>
+                            <option value="2">German</option> 
+                        </select>  
+                        <select class="usd-select">
+                            <option data-display="USD">USD</option>
+                            <option value="1">INR</option>
+                            <option value="2">GBP</option> 
+                        </select> 
+                        <ul class="top-lang-sol">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="active" href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+        <div class="header-container"> 
+            <div class="fast-header-item">  
+                <a class="logo" href="index.html"><img src="img/home-1/The-Land.png" alt=""></a>  
+                <div class="mobile-menu fast-mobile-menu"> 
+                    <div class="remove-one mobile-remove-one"><i class="fal fa-times"></i></div> 
+                    <ul class="fast-header-menu">
+                        <li><a class="menu-item" href="index.html">Home</a></li>
+                        <li><a class="menu-item" href="about.html">About</a></li>
+                        <li class="dropdown"><a class="menu-item" href="javascprit:void(0)">Property <i class="fal fa-angle-down"></i></a>
+                            <ul class="dropdown-pges-ul dropdown-menu"> 
+                                <li><a href="property-details-sale.html">Property Details sale</a></li>
+                                <li><a href="property-details-rent.html"> Property Details Rent</a></li> 
+                            </ul>
+                        </li> 
+                        <li><a class="menu-item" href="lists.html">Lists</a></li>
+                        <li class="dropdown"><a class="menu-item" href="javascprit:void(0)">News <i class="fal fa-angle-down"></i></a>
+                            <ul class="dropdown-pges-ul dropdown-menu">
+                                <li><a href="news-list.html">News List</a></li>
+                                <li><a href="news-details.html"> News Details</a></li> 
+                            </ul>
+                        </li> 
+                        <li class="dropdown"><a class="menu-item" href="javascprit:void(0)">Pages <i class="fal fa-angle-down"></i></a>
+                            <ul class="dropdown-pges-ul dropdown-menu">
+                                <li><a href="search-result.html">Search result V1</a></li> 
+                                <li><a href="search-result-2.html">Search result V2</a></li>  
+                                <li><a href="all-landlord.html">All Landlord</a></li> 
+                                <li><a href="landlord-details.html">Landlord Details</a></li>
+                                <li><a href="sign-in.html">Sign In</a></li>
+                                <li><a href="sign-up.html">Sign Up</a></li>
+                                <li><a href="verification-code.html">Verification Code</a></li>
+                                <li><a href="forgot-password.html">Forgot password</a></li>
+                                <li><a href="package-plan.html">Package plan</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="menu-item" href="contact-us.html">Contact</a></li>
+                    </ul> 
+                </div>  
+                <ul class="header-sigin-btn">
+                    <li><a class="h-heart" href="#"><i class="fal fa-heart"></i></a></li>
+                    <li><a class="u-signin" href="sign-in.html"><svg width="14" height="16" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.00033 9.11563C8.89274 9.11563 11.3337 9.58563 11.3337 11.399C11.3337 13.213 8.87674 13.6663 6.00033 13.6663C3.10857 13.6663 0.666992 13.1963 0.666992 11.383C0.666992 9.56897 3.12391 9.11563 6.00033 9.11563ZM6.00033 0.333008C7.95973 0.333008 9.52965 1.90236 9.52965 3.86038C9.52965 5.8184 7.95973 7.38841 6.00033 7.38841C4.04159 7.38841 2.471 5.8184 2.471 3.86038C2.471 1.90236 4.04159 0.333008 6.00033 0.333008Z" fill="white"/>
+                        </svg>
+                         Sign In</a>
+                    </li>
+                </ul>
+                <a  class="menu-oparetor sidebar-menu" id="menu-opener" ><i class="fas fa-bars"></i></a>  
+            </div> 
+        </div>
+    </header> 
+    <!-- header area end -->  
+    <!-- about-breadcome strat  -->
+    <div class="about-breadcome">
+        <div class="container"> 
+            <h3 class="breadcome-heading">About Us</h3>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                </ol>
+            </nav>
+        </div> 
+    </div>
+    <!-- about-breadcome end -->
+    <!-- hreo-area strat --> 
+    <section class="about-banner-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="a-b-left-item">
+                        <img class="about-b-img" src="img/about-img/ap-banner-left-img.png" alt=""> 
+                        <img class="about-b-img-2" src="img/about-img/ap-banner-left-img-2.png" alt=""> 
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ab-text-area">
+                        <div class="a-b-text-item">
+                            <h2 class="about-text-hading">We Provide The Best Property For Your</h2>
+                            <p class="a-b-para-1">Neque mollis imperdiet nibh massa dapibus dis. Nec mollis lectus nulla mi, tristique dis id nisl. Tortor nec sit sed pulvinar sit nunc.</p>
+                            <p class="a-b-para-2">Accumsan leo. A non imperdiet est, ultricies. Turpis ipsum, id consequat vitae pellentesque et. In enim eu feugiat sit. Adipiscing arcu nunc integer tincidunt. Placerat porttitor vel, amet, amet, neque eu sed.</p>
+    
+                            <a class="theme-btn" href="#">Read More</a>
+                        </div> 
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- hreo-area end -->
+    <!-- countreup-area strat -->
+    <div class="countreup-area" style="background-image: url('img/about-img/ab-counterup-bg.png');">
+        <div class="container">
+            <div class="counter-up-wraper">
+                <div class="counter-up-item">
+                    <h2><span class="counter">3600</span></h2>
+                    <p class="cunter-paragraph">SQUARE METERS</p> 
+                </div>
+                <div class="counter-up-item">
+                    <h2><span class="counter">2022</span></h2>
+                    <p class="cunter-paragraph">COMPLETION YEAR</p> 
+                </div>
+                <div class="counter-up-item">
+                    <h2><span class="counter">227</span></h2>
+                    <p class="cunter-paragraph">APARTMENTS</p> 
+                </div>
+                <div class="counter-up-item">
+                    <h2><span class="counter">400</span></h2>
+                    <p class="cunter-paragraph">PARKING SPOTS</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- countreup-area end-->
+    <!-- clients-say-area strat -->
+    <section class="clients-say-area">
+        <div class="container">
+            <div class="title">
+                <div class="title text-center clients-say-title">
+                    <h3 class="title-heading">Clients Say About us</h3>  
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="clients-say-img-item">
+                        <img src="img/about-img/clients-say-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="clients-say-slide-area">
+                        <div class="swiper clients-rating">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="claint-slied-item">
+                                        <div class="c-s-rating">
+                                            <span class="c-s-quite"><i class="fas fa-quote-right"></i></span>
+                                            <ul>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul> 
+                                        </div>
+                                        <p class="swices-paragraph">Quis velit hendrerit egestas amet, vitae velit adipiscing est. Sit lectus nunc adipis cing enim. Lacus, non cursus at amet proin potenti semper commodo proin. Dignissim suspendisse eu, ut non. Faucibus feugiat velit molestie enim. Mauris maecenas nec, tristique sit.</p>
+                                        <div class="c-s-clint-ids">
+                                            <img class="clients-say-img-2" src="img/about-img/clients-say-img-2.png" alt="">
+                                            <div class="c-s-clint-id-name">
+                                                <h6 class="c-s-Bell">Jerome Bell</h6>
+                                                <p class="happy-customers">Happy Customer</p>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div> 
+                                <div class="swiper-slide">
+                                    <div class="claint-slied-item">
+                                        <div class="c-s-rating">
+                                            <span class="c-s-quite"><i class="fas fa-quote-right"></i></span>
+                                            <ul>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul> 
+                                        </div>
+                                        <p class="swices-paragraph">Quis velit hendrerit egestas amet, vitae velit adipiscing est. Sit lectus nunc adipis cing enim. Lacus, non cursus at amet proin potenti semper commodo proin. Dignissim suspendisse eu, ut non. Faucibus feugiat velit molestie enim. Mauris maecenas nec, tristique sit.</p>
+                                        <div class="c-s-clint-ids">
+                                            <img class="clients-say-img-2" src="img/about-img/clients-say-img-5.png" alt="">
+                                            <div class="c-s-clint-id-name">
+                                                <h6 class="c-s-Bell">Jerome Bell</h6>
+                                                <p class="happy-customers">Happy Customer</p>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="claint-slied-item">
+                                        <div class="c-s-rating">
+                                            <span class="c-s-quite"><i class="fas fa-quote-right"></i></span>
+                                            <ul>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul> 
+                                        </div>
+                                        <p class="swices-paragraph">Quis velit hendrerit egestas amet, vitae velit adipiscing est. Sit lectus nunc adipis cing enim. Lacus, non cursus at amet proin potenti semper commodo proin. Dignissim suspendisse eu, ut non. Faucibus feugiat velit molestie enim. Mauris maecenas nec, tristique sit.</p>
+                                        <div class="c-s-clint-ids">
+                                            <img class="clients-say-img-2" src="img/about-img/clients-say-img-6.png" alt="">
+                                            <div class="c-s-clint-id-name">
+                                                <h6 class="c-s-Bell">Jerome Bell</h6>
+                                                <p class="happy-customers">Happy Customer</p>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div> 
+                        </div> 
+                        <div class="c-s-reviewrs">
+                            <div class="swiper-button-next add-properties-btn c-s-swiper-btn c-s-next-btn"><i class="fal fa-angle-right"></i></div>
+                            <div class="swiper-button-prev add-properties-btn c-s-swiper-btn"><i class="fal fa-angle-left"></i></div>
+                            <ul class="review-man">
+                                <li>
+                                    <a href="#">
+                                    <img src="img//about-img/clients-say-img-3.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <img src="img//about-img/clients-say-img-4.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <img src="img//about-img/clients-say-img-5.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <img src="img//about-img/clients-say-img-6.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="active cc-s-plaus" href="#">
+                                    <img src="img//about-img/clients-say-img-7.png" alt="">
+                                    <i class="fal fa-plus"></i> 
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="c-c-s-views">
+                                <i class="fas fa-star"></i>
+                                <p><span>4.9</span> (500 review)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- clients-say-area end -->
+    <!-- meet-agents-area strat -->
+    <section class="meet-agents-area">
+        <div class="container">
+            <div class="title">
+                <div class="title text-center clients-say-title">
+                    <h3 class="title-heading">Meet Our Agents</h3>  
+                </div>
+            </div>
+            <div class="meet-agents-wraper">
+                <div class="meet-agents-item">
+                    <div class="meet-agent-img-area">
+                        <a href="landlord-details.html">
+                            <img class="m-a-i-img" src="img/about-img/meet-agent-img-1.png" alt="">
+                        </a> 
+                        <div class="meet-agent-calling-number">
+                            <img src="img/about-img/meet-agent-call.svg" alt="">
+                            <a href="tel:+13332357890">+1 333 235 7890</a>
+                        </div>
+                        <ul class="meet-agent-ul">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="meet-agent-add text-center">
+                        <a href="landlord-details.html" class="meet-agent-name">Guy Hawkins</a>
+                        <p class="meet-agent-location">Landlord</p>
+                    </div>
+                </div>
+                <div class="meet-agents-item">
+                    <div class="meet-agent-img-area">
+                        <a href="landlord-details.html">
+                            <img class="m-a-i-img" src="img/about-img/meet-agent-img-2.png" alt="">
+                        </a> 
+                        <div class="meet-agent-calling-number">
+                            <img src="img/about-img/meet-agent-call.svg" alt="">
+                            <a href="tel:+13332357890">+1 333 235 7890</a>
+                        </div>
+                        <ul class="meet-agent-ul">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="meet-agent-add text-center">
+                        <a href="landlord-details.html" class="meet-agent-name">Marvin McKinney</a>
+                        <p class="meet-agent-location">Landlord</p>
+                    </div>
+                </div>
+                <div class="meet-agents-item">
+                    <div class="meet-agent-img-area">
+                        <a href="landlord-details.html">
+                            <img class="m-a-i-img" src="img/about-img/meet-agent-img-3.png" alt="">
+                        </a> 
+                        <div class="meet-agent-calling-number">
+                            <img src="img/about-img/meet-agent-call.svg" alt="">
+                            <a href="tel:+13332357890">+1 333 235 7890</a>
+                        </div>
+                        <ul class="meet-agent-ul">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="meet-agent-add text-center">
+                        <a href="landlord-details.html" class="meet-agent-name">Arlene McCoy</a>
+                        <p class="meet-agent-location">Landlord</p>
+                    </div>
+                </div>
+                <div class="meet-agents-item">
+                    <div class="meet-agent-img-area">
+                        <a href="landlord-details.html">
+                            <img class="m-a-i-img" src="img/about-img/meet-agent-img-4.png" alt=""> 
+                        </a> 
+                        <div class="meet-agent-calling-number">
+                            <img src="img/about-img/meet-agent-call.svg" alt="">
+                            <a href="tel:+13332357890">+1 333 235 7890</a>
+                        </div>
+                        <ul class="meet-agent-ul">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="meet-agent-add text-center">
+                        <a href="landlord-details.html" class="meet-agent-name">Devon Lane</a>
+                        <p class="meet-agent-location">Landlord</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- meet-agents-area end -->
+    <!-- trusted-artners-area strat -->
+    <div class="trusted-artners-area">
+        <div class="container"> 
+            <div class="swiper trusted-claint">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide trusted-artners-item">
+                        <img src="img/about-img/trusted-claint-img-1.png" alt="">
+                    </div> 
+                    <div class="swiper-slide trusted-artners-item">
+                        <img src="img/about-img/trusted-claint-img-2.png" alt="">
+                    </div> 
+                    <div class="swiper-slide trusted-artners-item">
+                        <img src="img/about-img/trusted-claint-img-3.png" alt="">
+                    </div> 
+                    <div class="swiper-slide trusted-artners-item">
+                        <img src="img/about-img/trusted-claint-img-4.png" alt="">
+                    </div> 
+                    <div class="swiper-slide trusted-artners-item">
+                        <img src="img/about-img/trusted-claint-img-5.png" alt="">
+                    </div> 
+                    <div class="swiper-slide trusted-artners-item">
+                        <img src="img/about-img/trusted-claint-img-6.png" alt="">
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <!-- trusted-artners-area end -->
+    <!-- about-contact-area strat  -->
+    <section class="about-contact-area">
+        <div class="container">
+            <div class="title">
+                <div class="title text-center">
+                    <h3>Contact Us</h3>  
+                </div>
+            </div>
+            <div class="about-contact-form-area">
+                <div class="ab-form-contacts-area">
+                    <div class="ab-location">
+                        <svg width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.79292 1.31148C7.75808 -0.465816 11.4028 -0.434752 14.3401 1.39285C17.2486 3.25768 19.0162 6.58585 18.9999 10.166C18.9321 13.7227 17.0366 17.066 14.6673 19.6505C13.2998 21.149 11.77 22.474 10.1091 23.5985C9.93809 23.7005 9.75073 23.7688 9.5563 23.8C9.36917 23.7918 9.18693 23.7347 9.02602 23.634C6.49044 21.9444 4.26595 19.7877 2.45959 17.2675C0.948083 15.1639 0.0893468 12.6224 0 9.98819L0.00676701 9.60497C0.13018 6.1665 1.93365 3.0253 4.79292 1.31148ZM10.7313 7.04868C9.52588 6.52013 8.13613 6.80729 7.21093 7.77609C6.28573 8.74488 6.00759 10.2042 6.50636 11.4727C7.00514 12.7412 8.18246 13.5686 9.48861 13.5686C10.3443 13.5749 11.1668 13.2214 11.773 12.5867C12.3791 11.952 12.7184 11.0889 12.7154 10.1897C12.72 8.81725 11.9367 7.57724 10.7313 7.04868Z" fill="#00A551"/>
+                            <path opacity="0.4" d="M9.49958 28C13.2472 28 16.2853 27.3731 16.2853 26.6C16.2853 25.8268 13.2472 25.2 9.49958 25.2C5.75194 25.2 2.71387 25.8268 2.71387 26.6C2.71387 27.3731 5.75194 28 9.49958 28Z" fill="#00A551"/>
+                        </svg>
+                        <p>Cecilia Chapman, 711-2880 Nulla St.Mankato Mississippi</p>    
+                    </div>
+                    <div class="ab-location ab-calls">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3592 13.6464C17.818 19.1037 19.0563 12.7902 22.5319 16.2634C25.8827 19.6132 27.8085 20.2844 23.5632 24.5286C23.0314 24.9559 19.6527 30.0974 7.77893 18.2269C-4.09634 6.35495 1.04217 2.97282 1.46964 2.44119C5.72529 -1.81474 6.38486 0.122313 9.73562 3.47213C13.2112 6.94678 6.90048 8.1892 12.3592 13.6464Z" fill="#F89117"/>
+                        </svg>
+                        <a class="abc-number" href="tel:+1262365256325">+ 126 2365 256 325</a>  
+                        <a class="abc-number" href="tel:+1262365256325">+ 2365 126 256 325</a>  
+                    </div>
+                    <div class="ab-location ab-emails">
+                        <svg width="28" height="25" viewBox="0 0 28 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M28 17.9726C28 21.8474 24.864 24.9862 20.958 25.0001H20.944H7.07C3.178 25.0001 0 21.8752 0 18.0003V17.9864C0 17.9864 0.0084 11.8394 0.0196 8.74786C0.021 8.16733 0.693 7.84234 1.1508 8.20344C4.4772 10.8214 10.4258 15.5949 10.5 15.6574C11.494 16.4476 12.754 16.8934 14.042 16.8934C15.33 16.8934 16.59 16.4476 17.584 15.6421C17.6582 15.5935 23.4738 10.9631 26.8506 8.30204C27.3098 7.93956 27.9846 8.26455 27.986 8.84369C28 11.9116 28 17.9726 28 17.9726Z" fill="#7879F1"/>
+                            <path d="M27.2662 3.71377C26.0538 1.44717 23.6682 0 21.0418 0H7.06984C4.44344 0 2.05784 1.44717 0.845437 3.71377C0.573837 4.22069 0.702637 4.85262 1.15484 5.21094L11.5498 13.4593C12.2778 14.0426 13.1598 14.3329 14.0418 14.3329C14.0474 14.3329 14.0516 14.3329 14.0558 14.3329C14.06 14.3329 14.0656 14.3329 14.0698 14.3329C14.9518 14.3329 15.8338 14.0426 16.5618 13.4593L26.9568 5.21094C27.409 4.85262 27.5378 4.22069 27.2662 3.71377Z" fill="#7879F1"/>
+                        </svg>
+                            
+                        <a href="mailto:shaidulislam@gmail.com">shaidulislam@gmail.com</a>
+                        <a href="mailto:maantheme@gmail.com">maantheme@gmail.com</a>
+                    </div>
+
+                </div>
+                <form action="#"> 
+                    <div class="row"> 
+                        <div class="col-lg-6">
+                            <div class="about-input-contents">
+                                <label>Your First Name</label> 
+                                <input  type="text" placeholder="Enter you name">
+                            </div> 
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-input-contents">
+                                <label>Your Last Name</label> 
+                                <input  type="text" placeholder="Enter you name">
+                            </div> 
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-input-contents">
+                                <label>Your Email</label> 
+                                <input  type="email" placeholder="Enter you name">
+                            </div> 
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-input-contents">
+                                <label>Subject</label> 
+                                <input  type="text" placeholder="Enter you name">
+                            </div> 
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="about-input-contents about-t-contents">
+                                <label>Subject</label>  
+                                <textarea placeholder="Enter you message"></textarea>
+                            </div> 
+                        </div>
+                    </div>
+                    <a class="theme-btn ab-form-btn" href="#">Send message</a>
+                </form> 
+            </div>
+        </div>
+    </section>
+    <!-- about-contact-area end -->
+    
+    <!-- footer-area strat -->
+    <footer class="footer-area" style="background-image: url('img/home-1/footer-bg.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer-item-one">
+                        <a class="footer-logo" href="index.html"><img src="img/home-1/footer-logo.png" alt=""></a>
+                        <p class="footer-para">There are many variations of passages of Lorem Ipsum available, but the suffered alteration in some form, There are many variations of passages of Lorem Ipsum available there are many variations </p>
+                        <ul class="footer-ul">
+                            <li><a class="footer-socail active" href="javascprit:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="footer-socail" href="javascprit:void(0)"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="footer-socail" href="javascprit:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="footer-socail" href="javascprit:void(0)"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="footer-socail" href="javascprit:void(0)">
+                                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.75 6.94531C17.75 6.90234 17.75 6.85352 17.748 6.79688C17.7461 6.63867 17.7422 6.46094 17.7383 6.27148C17.7227 5.72656 17.6953 5.18359 17.6523 4.67187C17.5938 3.9668 17.5078 3.37891 17.3906 2.9375C17.267 2.47685 17.0246 2.05674 16.6876 1.71913C16.3507 1.38153 15.9311 1.13827 15.4707 1.01367C14.918 0.865234 13.8359 0.773437 12.3125 0.716797C11.5879 0.689453 10.8125 0.671875 10.0371 0.662109C9.76562 0.658203 9.51367 0.65625 9.28711 0.654297H8.71289C8.48633 0.65625 8.23438 0.658203 7.96289 0.662109C7.1875 0.671875 6.41211 0.689453 5.6875 0.716797C4.16406 0.775391 3.08008 0.867187 2.5293 1.01367C2.06875 1.13797 1.64896 1.38112 1.312 1.71877C0.975037 2.05642 0.732735 2.4767 0.609375 2.9375C0.490234 3.37891 0.40625 3.9668 0.347656 4.67187C0.304688 5.18359 0.277344 5.72656 0.261719 6.27148C0.255859 6.46094 0.253906 6.63867 0.251953 6.79688C0.251953 6.85352 0.25 6.90234 0.25 6.94531V7.05469C0.25 7.09766 0.25 7.14648 0.251953 7.20313C0.253906 7.36133 0.257812 7.53906 0.261719 7.72852C0.277344 8.27344 0.304688 8.81641 0.347656 9.32812C0.40625 10.0332 0.492188 10.6211 0.609375 11.0625C0.859375 11.998 1.59375 12.7363 2.5293 12.9863C3.08008 13.1348 4.16406 13.2266 5.6875 13.2832C6.41211 13.3105 7.1875 13.3281 7.96289 13.3379C8.23438 13.3418 8.48633 13.3438 8.71289 13.3457H9.28711C9.51367 13.3438 9.76562 13.3418 10.0371 13.3379C10.8125 13.3281 11.5879 13.3105 12.3125 13.2832C13.8359 13.2246 14.9199 13.1328 15.4707 12.9863C16.4062 12.7363 17.1406 12 17.3906 11.0625C17.5098 10.6211 17.5938 10.0332 17.6523 9.32812C17.6953 8.81641 17.7227 8.27344 17.7383 7.72852C17.7441 7.53906 17.7461 7.36133 17.748 7.20313C17.748 7.14648 17.75 7.09766 17.75 7.05469V6.94531ZM16.3438 7.04688C16.3438 7.08789 16.3438 7.13281 16.3418 7.18555C16.3398 7.33789 16.3359 7.50586 16.332 7.6875C16.3184 8.20703 16.291 8.72656 16.25 9.20898C16.1973 9.83789 16.123 10.3535 16.0312 10.6992C15.9102 11.1504 15.5547 11.5078 15.1055 11.627C14.6953 11.7363 13.6621 11.8242 12.2578 11.877C11.5469 11.9043 10.7812 11.9219 10.0176 11.9316C9.75 11.9355 9.50195 11.9375 9.2793 11.9375H8.7207L7.98242 11.9316C7.21875 11.9219 6.45508 11.9043 5.74219 11.877C4.33789 11.8223 3.30273 11.7363 2.89453 11.627C2.44531 11.5059 2.08984 11.1504 1.96875 10.6992C1.87695 10.3535 1.80273 9.83789 1.75 9.20898C1.70898 8.72656 1.68359 8.20703 1.66797 7.6875C1.66211 7.50586 1.66016 7.33594 1.6582 7.18555C1.6582 7.13281 1.65625 7.08594 1.65625 7.04688V6.95312C1.65625 6.91211 1.65625 6.86719 1.6582 6.81445C1.66016 6.66211 1.66406 6.49414 1.66797 6.3125C1.68164 5.79297 1.70898 5.27344 1.75 4.79102C1.80273 4.16211 1.87695 3.64648 1.96875 3.30078C2.08984 2.84961 2.44531 2.49219 2.89453 2.37305C3.30469 2.26367 4.33789 2.17578 5.74219 2.12305C6.45312 2.0957 7.21875 2.07812 7.98242 2.06836C8.25 2.06445 8.49805 2.0625 8.7207 2.0625H9.2793L10.0176 2.06836C10.7812 2.07812 11.5449 2.0957 12.2578 2.12305C13.6621 2.17773 14.6973 2.26367 15.1055 2.37305C15.5547 2.49414 15.9102 2.84961 16.0312 3.30078C16.123 3.64648 16.1973 4.16211 16.25 4.79102C16.291 5.27344 16.3164 5.79297 16.332 6.3125C16.3379 6.49414 16.3398 6.66406 16.3418 6.81445C16.3418 6.86719 16.3438 6.91406 16.3438 6.95312V7.04688ZM7.26172 9.61719L11.793 6.98047L7.26172 4.38281V9.61719Z" fill="white"/>
+                                </svg>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-6">
+                    <div class="footer-item-two footer-quick-line">
+                        <h6 class="f-item-two-heading">Quick Links</h6>
+                        <ul class="f-item-ul">
+                            <li><a class="f-item-list" href="about.html">About us</a></li>
+                            <li><a class="f-item-list" href="javascprit:void(0)">Career Terms</a></li>
+                            <li><a class="f-item-list" href="javascprit:void(0)">Privacy Policy</a></li>
+                            <li><a class="f-item-list" href="javascprit:void(0)">Career Terms</a></li>
+                            <li><a class="f-item-list" href="javascprit:void(0)">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-6">
+                    <div class="footer-item-two footer-quick-our-menu">
+                        <h6 class="f-item-two-heading">Our Menu</h6>
+                        <ul class="f-item-ul">
+                            <li><a class="f-item-list" href="javascprit:void(0)">Press Centre</a></li>
+                            <li><a class="f-item-list" href="javascprit:void(0)">Travel News</a></li>
+                            <li><a class="f-item-list" href="about.html">About Us</a></li>
+                            <li><a class="f-item-list" href="javascprit:void(0)">Privacy Policy</a></li>
+                            <li><a class="f-item-list" href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="footer-item-four footer-quick-subscribe">
+                        <h6 class="f-item-two-heading">Subscribe Now</h6>
+                        <form class="example" action="/action_page.php">
+                            <input type="email" placeholder="Enter Email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+
+                        <div class="footer-payment">
+                            <h6 class="f-item-two-heading">Payment Methord</h6>
+                            <ul class="payment-ul">
+                                <li class="payment-li"><a class="payment-btn" href="javascprit:void(0)"><img src="img/home-1/footer-payment-1.png" alt=""></a></li>
+                                <li class="payment-li"><a class="payment-btn" href="javascprit:void(0)"><img src="img/home-1/footer-payment-2.png" alt=""></a></li>
+                                <li class="payment-li"><a class="payment-btn" href="javascprit:void(0)"><img src="img/home-1/footer-payment-3.png" alt=""></a></li>
+                                <li class="payment-li"><a class="payment-btn" href="javascprit:void(0)"><img src="img/home-1/footer-payment-4.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </footer>
+    <div class="footer-bottom-item">
+        <div class="container">
+            <span class="f-bottom-text">© 2022 Kure Ghor - All Rights Reserved Made by <a class="f-b-link" href="#">Maan Theme</a></span>
+        </div>
+    </div>
+    <!-- footer-area end --> 
+    <!--====== BACK TO TOP START ======-->
+    <a href="#" class="back-to-top" data-aos="fade-down"><i class="fal fa-long-arrow-up"></i></a>
+    <!--====== BACK TO TOP ENDS ======--> 
+
+    <!-- jQuery v3.2.1 -->
+    <script src="js/jquery-3.6.0.min.js"></script> 
+    <!-- Bootstrap v4.1.0 --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <!-- Extra Plugin --> 
+    <!-- <script src="vendors/wow-js/wow.min.js"></script>  -->
+    <script src="vendors/aos-animation/aos.js"></script>        
+    <script src="js/swiper-bundle.min.js"></script>  
+    <script src="vendors/counterup/jquery.counterup.min.js"></script>    
+    <script src="vendors/counterup/jquery.waypoints.min.js"></script>    
+    <script src="js/jquery.easy-ticker.min.js"></script>
+    <!-- Theme js / Custom js --> 
+    <script src="js/theme.js"></script>  
+</body>
+</html> 

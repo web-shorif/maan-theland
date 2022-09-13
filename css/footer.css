@@ -1,0 +1,147 @@
+.maan-footer-area {
+  display: block;
+  overflow: hidden;
+  padding: 90px 0;
+}
+
+.footer-logo-item .foote-logo {
+  margin-bottom: 30px;
+  display: block;
+}
+.footer-logo-item .foote-logo img {
+  max-width: 173px;
+}
+.footer-logo-item .footer-driscaption {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  max-width: 395px;
+}
+.footer-logo-item form {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 18px rgba(71, 50, 50, 0.08);
+  border-radius: 6px;
+  max-width: 370px;
+}
+.footer-logo-item form .input-1 .form-control {
+  padding: 15px 107px 15px 21px;
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #626366;
+  opacity: 0.6;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 18px rgba(71, 50, 50, 0.08);
+  border-radius: 6px;
+  border: none;
+}
+.footer-logo-item form .submit {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer-logo-item form .submit button {
+  padding: 7px 11px;
+  font-family: 'Jost';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #12CCE5;
+  border-radius: 6px;
+  border: none;
+}
+
+.footer-item .company-link {
+  font-family: 'Jost';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #1F2024;
+  margin-bottom: 20px;
+}
+.footer-item .footer-list .footer-list-item .menu-link {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #626366;
+  padding-bottom: 11px;
+  display: block;
+  transition: 0.3s;
+}
+.footer-item .footer-list .footer-list-item .menu-link:hover {
+  color: #F333c2;
+}
+
+.footer-item-about {
+  margin-left: 25px;
+}
+
+.footer-item-started {
+  position: relative;
+  left: auto;
+  right: -110px;
+}
+
+.footer-contact {
+  position: relative;
+  left: auto;
+  right: -120px;
+}
+
+/* footer bottom css area */
+.footer-bottom-area {
+  background: #F6F6FA;
+  padding: 37px 0;
+}
+.footer-bottom-area .footer-bottom-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reserved {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #626366;
+  transition: 0.3s;
+}
+.reserved:hover .maan-add {
+  color: #F333c2;
+}
+.reserved .maan-add {
+  font-family: 'Jost';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #626366;
+  transition: 0.3s;
+}
+
+.bottom-social-area {
+  display: flex;
+  align-items: center;
+}
+.bottom-social-area .social-item {
+  margin-left: 30px;
+}
+.bottom-social-area .social-item .social-links {
+  color: #12CCE5;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.bottom-social-area .social-item .social-links:hover {
+  color: #F333c2;
+}

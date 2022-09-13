@@ -1,0 +1,44 @@
+@import "header"; 
+/*----------------------------------------------------*/ 
+@import "variables"; 
+/*----------------------------------------------------*/
+@import "home-page"; 
+/*----------------------------------------------------*/ 
+@import "about-page"; 
+/*----------------------------------------------------*/
+@import "search-result-page"; 
+/*----------------------------------------------------*/ 
+@import "property-details-sale"; 
+/*----------------------------------------------------*/  
+@import "animation"; 
+/*----------------------------------------------------*/ 
+@import "all-landlord"; 
+/*----------------------------------------------------*/ 
+@import "landlord-details"; 
+/*----------------------------------------------------*/ 
+@import "news-list"; 
+/*----------------------------------------------------*/ 
+@import "news-details"; 
+/*----------------------------------------------------*/ 
+@import "sign-in"; 
+/*----------------------------------------------------*/  
+
+
+@import "prefix";
+/*----------------------------------------------------*/   
+ @import "responsive";
+/*----------------------------------------------------*/ 
+
+/*All CSS call*/ 
+@import "../css/bootstrap.min.css"; /* Bootstrap CSS */
+/* Icon CSS */
+@import "../vendors/fontawesome-pro-5.0.6/css/fontawesome-all.min.css";   
+/* Extra Plugins CSS */   
+
+/* font-family*/
+
+// font-family='Lato'
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
